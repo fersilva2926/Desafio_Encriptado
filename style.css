@@ -1,0 +1,114 @@
+body {
+  background-color: #f3f5fc;
+  font-family: "Inter";
+}
+
+header {
+  padding: 20px;
+}
+
+.contenedor {
+  display: inline-flex;
+}
+
+.zona_inicial {
+  padding: 45px 0 0 200px;
+  margin-right: 250px;
+}
+
+.caja_texto {
+  background-color: #f3f5fc;
+  font-family: "Inter";
+  font-size: 28px;
+  padding: 0 500px 300px 0;
+  border: none;
+  resize: none;
+  outline: none;
+}
+
+textarea::placeholder {
+  color: #0a3871;
+}
+
+.instrucciones {
+  font-size: 12px;
+  color: #495057;
+}
+
+.botones {
+  margin-top: 15px;
+}
+
+.boton_enc {
+  background-color: #0a3871;
+  color: #ffffff;
+  width: 260px;
+  height: 60px;
+  border: 1px #0a3871 solid;
+  border-radius: 15px;
+}
+
+.boton_enc:hover {
+  background-color: #1e4372;
+}
+
+.boton_des {
+  background-color: #d8dfe8;
+  color: #0a3871;
+  width: 260px;
+  height: 60px;
+  border: 1px #0a3871 solid;
+  border-radius: 15px;
+  margin-left: 10px;
+}
+
+.boton_des:hover {
+  background-color: #c5cbd2;
+}
+
+.cont_resultados {
+  background: white;
+  padding: 30px 25px 0 25px;
+  border-radius: 20px;
+  width: 345px;
+}
+
+.cont_textoEn {
+  font-size: 20px;
+  display: none;
+}
+
+.zona_sintexto {
+  text-align: center;
+  padding-top: 140px;
+  display: block;
+}
+
+.zona_sintexto h1 {
+  font-size: 27px;
+  font-weight: bold;
+  color: #343a40;
+}
+
+.zona_sintexto p {
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+.botonc {
+  text-align: center;
+  display: none;
+}
+
+.boton_cop {
+  background-color: #d8dfe8;
+  color: #0a3871;
+  width: 260px;
+  height: 60px;
+  border: 1px #0a3871 solid;
+  border-radius: 15px;
+}
+
+.texto_exito {
+  display: none;
+}
